@@ -1,0 +1,24 @@
+{
+  "name": "bellas-website",
+  "version": "1.0.0",
+  "description": "A lifetime personal website for Bella",
+  "scripts": {
+    "lint:html": "htmlhint src/**/*.html",
+    "lint:css": "stylelint src/css/**/*.css",
+    "lint:js": "eslint src/js/**/*.js",
+    "lint": "npm run lint:html && npm run lint:css && npm run lint:js",
+    "format": "prettier --write src/",
+    "format:check": "prettier --check src/",
+    "validate": "npm run lint && npm run format:check"
+  },
+  "keywords": ["personal-website", "static-site", "github-pages"],
+  "author": "Bella",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "htmlhint": "^1.1.4",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
