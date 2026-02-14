@@ -1,12 +1,12 @@
 # Bella's Lifetime Website 🌟
 
-![CI/CD Pipeline](https://github.com/USERNAME/REPO-NAME/workflows/CI/CD%20Pipeline/badge.svg)
+![CI/CD Pipeline](https://github.com/asinger776/bellas-website/workflows/CI/CD%20Pipeline/badge.svg)
 
 A beautiful, personal website for Bella that will grow with her throughout her life. Built with pure HTML, CSS, and JavaScript - no frameworks, no dependencies, just timeless code that will last for decades.
 
 ## 🌐 Live Site
 
-Visit the website: [https://USERNAME.github.io/REPO-NAME/](https://USERNAME.github.io/REPO-NAME/)
+Visit the website: [https://asinger776.github.io/bellas-website/](https://asinger776.github.io/bellas-website/)
 
 ## ✨ Features
 
@@ -71,8 +71,8 @@ No build step required! Just open the HTML files:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/USERNAME/REPO-NAME.git
-   cd REPO-NAME
+   git clone https://github.com/asinger776/bellas-website.git
+   cd bellas-website
    ```
 
 2. Open `src/index.html` in your browser:
@@ -241,7 +241,7 @@ When code is pushed to `main` and all checks pass:
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO-NAME.git
+   git remote add origin https://github.com/asinger776/bellas-website.git
    git push -u origin main
    ```
 
@@ -252,7 +252,7 @@ When code is pushed to `main` and all checks pass:
 4. Under "Build and deployment":
    - Source: **GitHub Actions**
    
-5. The site will be available at: `https://USERNAME.github.io/REPO-NAME/`
+5. The site will be available at: `https://asinger776.github.io/bellas-website/`
 
 ### Custom Domain (Optional)
 
@@ -261,7 +261,7 @@ When code is pushed to `main` and all checks pass:
 3. Add DNS records at your domain provider:
    - Type: `CNAME`
    - Name: `www` (or `@`)
-   - Value: `USERNAME.github.io`
+   - Value: `asinger776.github.io`
 
 ## 🧪 Testing Checklist
 
